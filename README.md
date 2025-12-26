@@ -6,6 +6,8 @@ HTTP API server quản lý quyền truy cập clipboard cho các automation tool
 
 **Windows:** [clipboard-controller.exe](https://github.com/TechScapBot/clipboard/raw/main/clipboard-controller.exe)
 
+**BAS Test Script:** [TestClipboard.xml](https://github.com/TechScapBot/clipboard/raw/main/TestClipboard.xml) - Import vào BAS để test
+
 Hoặc clone repo:
 ```bash
 git clone https://github.com/TechScapBot/clipboard.git

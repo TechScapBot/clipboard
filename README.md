@@ -2,6 +2,28 @@
 
 HTTP API server quản lý quyền truy cập clipboard cho các automation tool chạy đa luồng.
 
+## Tải về
+
+**Windows:** [clipboard-controller.exe](https://github.com/TechScapBot/clipboard/raw/main/clipboard-controller.exe)
+
+Hoặc clone repo:
+```bash
+git clone https://github.com/TechScapBot/clipboard.git
+cd clipboard
+```
+
+## Bắt đầu nhanh
+
+1. Tải file `clipboard-controller.exe`
+2. Tạo file `config.yaml` cùng thư mục (hoặc dùng config mặc định)
+3. Chạy `clipboard-controller.exe`
+4. Server sẽ chạy tại `http://localhost:8899`
+5. Icon sẽ xuất hiện ở system tray (khay hệ thống)
+
+**Lưu ý:**
+- Nút X trên console bị vô hiệu hóa - sử dụng menu tray để thoát
+- Click phải icon tray để: Hide/Show Console, Open Logs, Exit
+
 ## Khởi động
 
 ```bash

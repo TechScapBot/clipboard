@@ -32,3 +32,11 @@ logs/
 # OS
 .DS_Store
 Thumbs.db
+
+# Test files
+*_test.go
+
+# Plan/docs files
+phase*.md
+plan.md
+test.md

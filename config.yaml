@@ -1,0 +1,33 @@
+# Clipboard Controller Configuration
+
+# Server
+port: 8899
+
+# Heartbeat
+heartbeat_timeout: 300      # 5 minutes - tool is marked offline if no heartbeat
+heartbeat_interval: 120     # 2 minutes - suggested interval for clients
+
+# Polling
+poll_interval: 200          # 200ms - suggested poll interval for clients
+
+# Ticket
+ticket_ttl: 120             # 2 minutes - ticket expires if not polled
+ticket_ttl_on_poll: true    # reset TTL on each poll
+
+# Lock
+lock_max_duration: 20       # 20 seconds - maximum time to hold lock
+lock_extendable: true       # allow extending lock
+lock_extend_max: 2          # maximum number of extends
+lock_grace_period: 5        # 5 seconds - grace period after grant
+
+# Priority (future use)
+priority_enabled: false
+
+# Logging
+log_dir: "./logs"
+log_retention_days: 30
+log_level: "debug"          # debug for development
+
+# Client retry suggestions
+client_retry_max: 3
+client_retry_delay_ms: 1000

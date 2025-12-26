@@ -1,5 +1,4 @@
-# Binaries
-*.exe
+# Binaries (keep clipboard-controller.exe for distribution)
 *.exe~
 *.dll
 *.so
